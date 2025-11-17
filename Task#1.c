@@ -17,7 +17,7 @@ int main(){
 void currentstatus(int bed , int wards ,int arr[][5]){
 	for(int i=0;i<wards;i++){
 		for(int j=0; j<bed;j++){
-			printf("enter the status for bed "); //1== occupied ; 0==empty
+			printf("enter the status for bed "); 
 			scanf("%d",&arr[i][j]);
 			
 		}
@@ -58,5 +58,6 @@ for(int i=0;i<total;i++){
 	
 	printf("the total empty beds are %d\n",empty);
 	printf("number of occupied bed %d\n",full);
+
 
 }
